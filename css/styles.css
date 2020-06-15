@@ -166,13 +166,17 @@ button:focus {
     color: var(--accent-color)
 }
 
-.gallery .link {
+.portfolio-tittles {
+    color: var(--tittle-text-color);
+}
+
+.gallery-list .link {
     text-decoration: none;
     color: var(--primary-text-color);
 }
 
-.gallery .link:hover,
-.gallery .link:focus {
+.gallery-list .link:hover,
+.gallery-list .link:focus {
     color: var(--accent-color)
 }
 
