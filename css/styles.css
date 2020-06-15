@@ -109,9 +109,6 @@ body {
     color: var(--accent-color)
 }
 
-button {
-    font-family: inherit;
-}
 
 ul {
     list-style: none;
@@ -156,4 +153,42 @@ ul {
 .social .link:hover,
 .social .link:focus {
     color: var(--accent-color)
+}
+
+/* Портфолио */
+
+button {
+    font-family: inherit;
+}
+
+button:hover,
+button:focus {
+    color: var(--accent-color)
+}
+
+.gallery .link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.gallery .link:hover,
+.gallery .link:focus {
+    color: var(--accent-color)
+}
+
+.gallery-tittle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--tittle-text-color);
+}
+
+.gallery-tittle:hover,
+.gallery-tittle:focus {
+    color: var(--accent-color)
+}
+
+.gallery-description {
+    font-size: 16px;
+    line-height: 1.87;
 }
