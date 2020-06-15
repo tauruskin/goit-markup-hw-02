@@ -4,30 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Портфолио</title>
+
 </head>
 
 <body>
     <header>
         <nav>
-            <a href=""> Web Studio
+            <a href="./index.html" class="logo"> Web Studio
                 <!-- <img src="./img/web-studio.svg" alt="Web Studio"> -->
             </a>
 
-            <ul>
-                <li> <a href="./index.html"> Студия</a></li>
-                <li> <a href="./portfolio.html"> Портфолио</a></li>
-                <li> <a href=""> Контакты</a></li>
+            <ul class="site-nav">
+                <li> <a href="./index.html" class="link"> Студия</a></li>
+                <li> <a href="./portfolio.html" class="link current"> Портфолио</a></li>
+                <li> <a href="" class="link"> Контакты</a></li>
             </ul>
-            <ul>
+            <ul class="contacts-nav">
                 <li>
-                    <a href="">
+                    <a href="" class="link">
                         <img src="./img/envelope.svg" alt="">
-                    </a> info@devstudio.com</li>
+                        info@devstudio.com
+                    </a>
+                </li>
                 <li>
-                    <a href="">
+                    <a href="" class="link">
                         <img src="./img/phone.svg" alt="">
-                    </a> +38 096 111 11 11
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -45,7 +52,7 @@
         </section>
         <section>
             <!--Галерея работ-->
-            <h1>Галерея работ</h1>
+            <!-- <h1>Галерея работ</h1> -->
             <ul>
                 <li>
                     <a href="">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -127,36 +134,38 @@
     </main>
     <!--Футер-->
     <footer>
-        <img src="./img/footer/web-studio.svg" alt="">
-        <ul>
+        <a href="" class="logo"> Web Studio
+            <!-- <img src="./img/web-studio.svg" alt="Web Studio"> -->
+        </a>
+        <ul class="footer-contacts">
             <li>
-                <a href=""> г. Киев, пр-т Леси Украинки, 26 </a>
+                <a href="" class="link"> г. Киев, пр-т Леси Украинки, 26 </a>
             </li>
             <li>
-                <a href=""> info@example.com </a>
+                <a href="" class="link"> info@example.com </a>
             </li>
             <li>
-                <a href=""> +38 099 111 11 11 </a>
+                <a href="" class="link"> +38 099 111 11 11 </a>
             </li>
         </ul>
         <p>Присоединяйтесь</p>
-        <ul>
+        <ul class="social">
             <li>
-                <a href="">Instagram</a>
+                <a href="" class="link">Instagram</a>
             </li>
             <li>
-                <a href="">Twitter</a>
+                <a href="" class="link">Twitter</a>
             </li>
             <li>
-                <a href="">Facebook</a>
+                <a href="" class="link">Facebook</a>
             </li>
             <li>
-                <a href="">Linkedin</a>
+                <a href="" class="link">Linkedin</a>
             </li>
         </ul>
         <p>Подпишитесь на рассылку</p>
 
-        <a href="">Подписаться</a>
+        <a href="" class="button primary">Подписаться</a>
         <p>2020 | Developed by GoIT Students</p>
     </footer>
 </body>
