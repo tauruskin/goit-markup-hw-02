@@ -32,6 +32,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 
 .logo:hover,
@@ -106,7 +107,7 @@ body {
 
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 
@@ -128,11 +129,29 @@ ul {
     line-height: 1.71;
 }
 
+.specification {
+    text-decoration: none;
+}
+
+.specification:hover,
+.specification:focus {
+    color: var(--accent-color);
+}
+
 .name-list {
     color: var(--tittle-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+}
+
+.team-social {
+    text-decoration: none;
+}
+
+.team-social:hover,
+.team-social:focus {
+    color: var(--accent-color);
 }
 
 .footer-contacts .link {
@@ -143,7 +162,7 @@ ul {
 
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .social .link {
@@ -152,7 +171,7 @@ ul {
 
 .social .link:hover,
 .social .link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 /* Портфолио */
@@ -163,7 +182,7 @@ button {
 
 button:hover,
 button:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .portfolio-tittles {
@@ -177,7 +196,7 @@ button:focus {
 
 .gallery-list .link:hover,
 .gallery-list .link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .gallery-tittle {
@@ -189,7 +208,7 @@ button:focus {
 
 .gallery-tittle:hover,
 .gallery-tittle:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .gallery-description {
